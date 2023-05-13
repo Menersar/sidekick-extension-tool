@@ -2,7 +2,7 @@
 Tool for creating and building sidekick extension.
 
 ## Instructions
-### Required files and folder (containing files) for building extensions 
+### Required files and folder (holding files) for building extensions 
 #### Files
 - `info.json`: Holds basic information about an extension.
 - `index.js`: Names an extension's blocks and implements their functionalities.
