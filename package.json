@@ -3,12 +3,15 @@
   "version": "0.1.0",
   "author": "Sidekick Team",
   "scripts": {
-    "build": "rimraf ./build && mkdirp build && rimraf ./dist && mkdirp dist && webpack",
+    "testeroni": "rimraf ./build && mkdirp build && rimraf ./dist && mkdirp dist && webpack",
+    "prebuild": "webpack --config webpack.config.js",
     "build:dist": "NODE_ENV=production yarn run build",
     "roni": "node ./roni.js",
+    "ronii": "webpack --config webpack.config.js",
+    "aaaaaaaaaaaaaaaaaaa": "webpack --env goal=local --env production --progress",
     "build:all": "node ./buildAllExtensions.js",
-    "build:extension1": "rimraf ./extensions/extension1/build && mkdirp extensions/extension1/build && rimraf ./extensions/extension1/dist && mkdirp extensions/extension1/dist && webpack extension1",
-    "build:extension2": "rimraf ./extensions/extension2/build && mkdirp extensions/extension2/build && rimraf ./extensions/extension2/dist && mkdirp extensions/extension2/dist && webpack"
+    "build:extension1": "rimraf ./extensions/extension1/build && mkdirp extensions/extension1/build && rimraf ./extensions/extension1/dist && mkdirp extensions/extension1/dist && webpack --env extensionName=extension1",
+    "build:extension2": "rimraf ./extensions/extension2/build && mkdirp extensions/extension2/build && rimraf ./extensions/extension2/dist && mkdirp extensions/extension2/dist && webpack --env extensionName=extension2"
   },
   "dependencies": {
     "npm-add-script": "^1.1.0",

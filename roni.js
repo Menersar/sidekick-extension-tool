@@ -85,5 +85,5 @@ process.argv.forEach((val, index) => {
 
         execSync("yarn run build:" + extensionName)
     // }
-// });
+});
 
