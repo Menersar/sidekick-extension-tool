@@ -17,6 +17,6 @@ Tool for creating and building sidekick extension.
 - `yarn install`: Install project dependencies.
 - `yarn run build:all`: Build all extension <br/>
 (Output: `build files` in folder `build`, `.skx` file in folder `dist`).
-- `yarn run build:extension [EXTENSION-NAME] [EXTENSION-NAME] …`: Build the extension `[EXTENSION-NAME]` <br/>
+- `yarn run build:extension [EXTENSION-NAME] [EXTENSION-NAME]` …: Build the extension `[EXTENSION-NAME]` <br/>
 (Note: Instead of `[EXTENSION-NAME]` provide the folder name(s) of the extension(s) you want to build) <br/>
 (Output: `build files` in folder(s) `build`, `.skx` file in folder(s) `dist`).
