@@ -2,8 +2,6 @@ const path = require('path');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const ZipWebpackPlugin = require('zip-webpack-plugin');
 
-// const info = require('./info.json');
-
 const process = require('process');
 
 const extensionsFolderName = 'extensions';
@@ -11,7 +9,6 @@ const extensionsFolderName = 'extensions';
 let extensionLocation = '';
 let extensionInfo = '';
 let extensionName = '';
-
 
 module.exports = (env) => {
     // Using Webpack Environment Variables (https://webpack.js.org/guides/environment-variables/):
@@ -23,9 +20,7 @@ module.exports = (env) => {
         extensionName = env.extensionName;
         extensionLocation = extensionsFolderName + '/' + extensionName + '/';
     }
-
     extensionInfo = require('./' + extensionLocation + 'info.json');
-
 
     return {
         bail: true,
