@@ -8,7 +8,7 @@
     "build:dist": "NODE_ENV=production yarn run build",
     "build:all": "node ./buildAllExtensions.js",
     "build:extension": "node ./buildExtension.js",
-    "build-extension": "rimraf ./extensions/sidekick/build && mkdirp extensions/sidekick/build && rimraf ./extensions/sidekick/dist && mkdirp extensions/sidekick/dist && webpack --env extensionName=sidekick"
+    "build-extension": "rimraf ./extensions/sidekick1/build && mkdirp extensions/sidekick1/build && rimraf ./extensions/sidekick1/dist && mkdirp extensions/sidekick1/dist && webpack --env extensionName=sidekick1"
   },
   "dependencies": {
     "npm-add-script": "^1.1.0",
