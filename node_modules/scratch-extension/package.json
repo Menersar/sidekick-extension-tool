@@ -1,10 +1,10 @@
 {
   "name": "scratch-extension",
   "version": "0.2.0",
-  "description": "Scratch extension development / creation kit.",
-  "main": "./dist/scratch-extension.js",
-  "types": "./dist/scratch-extension.d.ts",
-  "repository": "https://github.com/Menersar/scratch-extension.git",
+  "description": "Sidekick extension development / creation kit.",
+  "main": "./dist/sidekick-extension.js",
+  "types": "./dist/sidekick-extension.d.ts",
+  "repository": "https://github.com/Menersar/sidekick-extension.git",
   "author": "",
   "license": "BSD-3-Clause",
   "scripts": {

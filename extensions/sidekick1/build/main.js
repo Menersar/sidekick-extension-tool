@@ -19,12 +19,12 @@ eval("const { api, type, Extension } = __webpack_require__(/*! scratch-extension
 /***/ }),
 
 /***/ "scratch-extension":
-/*!***********************************!*\
-  !*** external "ScratchExtension" ***!
-  \***********************************/
+/*!************************************!*\
+  !*** external "SidekickExtension" ***!
+  \************************************/
 /***/ ((module) => {
 
-module.exports = self["ScratchExtension"];
+module.exports = self["SidekickExtension"];
 
 /***/ })
 

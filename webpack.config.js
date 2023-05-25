@@ -38,7 +38,7 @@ module.exports = (env) => {
             outputModule: true
         },
         externals: {
-            'scratch-extension': 'ScratchExtension'
+            'scratch-extension': 'SidekickExtension'
         },
         externalsType: 'global',
         plugins: [
