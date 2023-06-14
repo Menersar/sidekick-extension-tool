@@ -1,0 +1,58 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add node@16.0.0
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin\;C:\ProgramData\chocolatey\bin;"C:\Python27\;C:\Python27\Scripts\";C:\Program Files\nodejs\;C:\Users\mener\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\mener\AppData\Local\Programs\Python\Python311\;C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.16.10262.0_x64__8wekyb3d8bbwe;C:\Users\mener\AppData\Local\Microsoft\WindowsApps;C:\Users\mener\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\mener\AppData\Local\GitHubDesktop\bin;C:\Users\mener\AppData\Local\Yarn\bin;C:\Python27\Scripts\;C:\Users\mener\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.0.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\mener\Desktop\sidekick\sidekick-extension-tool\package.json: Unexpected token } in JSON at position 837
+      at JSON.parse (<anonymous>)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:310:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "scratch-extension-tool",
+    "version": "0.1.0",
+    "author": "Sidekick Team",
+    "scripts": {
+      "build:example": "rimraf ./build && mkdirp build && rimraf ./dist && mkdirp dist && webpack",
+      "prebuild": "webpack --config webpack.config.js",
+      "build:dist": "NODE_ENV=production yarn run build",
+      "build:all": "node ./buildAllExtensions.js",
+      "build:extension": "node ./buildExtension.js",
+      "build-extension": "rimraf ./extensions/sidekick2/build && mkdirp extensions/sidekick2/build && rimraf ./extensions/sidekick2/dist && mkdirp extensions/sidekick2/dist && webpack --env extensionName=sidekick2"
+    },
+    "dependencies": {
+      "npm-add-script": "^1.1.0",
+      "nwjs-j5-fix": "^1.0.6",
+      "path": "^0.12.7",
+      "save-dev": "^0.0.1-security",
+      "scratch-extension": "../sidekick-modules/scratch-extension",
+    },
+    "devDependencies": {
+      "copy-webpack-plugin": "^10.2.0",
+      "mkdirp": "^1.0.4",
+      "rimraf": "^3.0.2",
+      "webpack": "^5.65.0",
+      "webpack-cli": "^4.9.1",
+      "zip-webpack-plugin": "^4.0.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  
