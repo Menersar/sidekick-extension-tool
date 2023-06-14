@@ -29,11 +29,11 @@ Tool for creating and building sidekick extension.
   (Output 1: Build files in <a href="https://github.com/Menersar/sidekick-extension-tool/tree/main/extensions/example-extension/build">/build<a/>). <br/>
   (Output 2: `.skx` file in <a href="https://github.com/Menersar/sidekick-extension-tool/tree/main/extensions/example-extension/dist">/dist<a/>).
 
-- Build the extension `[EXTENSION-NAME]`, 
+- Build extension `[EXTENSION-NAME-1]`, `[EXTENSION-NAME-2]`, …, `[EXTENSION-NAME-X]` 
   ```console
   yarn run build:extension [EXTENSION-NAME-1] [EXTENSION-NAME-2] … [EXTENSION-NAME-X]
   ``` 
-  (Note: Instead of `[EXTENSION-NAME]` provide the folder name(s) of the extension(s) you want to build.) <br/>
-  (IMPORTANT: `[EXTENSION-NAME]` (and correlating folder name) must NOT contain spaces for the build command to function properly!) <br/>
+  (Note: Instead of `[EXTENSION-NAME-X]` provide the folder name(s) of the extension(s) you want to build.) <br/>
+  (IMPORTANT: `[EXTENSION-NAME-X]` (and correlating folder name) must NOT contain spaces for the build command to function properly!) <br/>
   (Output 1: Build files in <a href="https://github.com/Menersar/sidekick-extension-tool/tree/main/extensions/example-extension/build">/build<a/>). <br/>
   (Output 2: `.skx` file in <a href="https://github.com/Menersar/sidekick-extension-tool/tree/main/extensions/example-extension/dist">/dist<a/>).
