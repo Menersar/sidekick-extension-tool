@@ -1,0 +1,24 @@
+{
+  "name": "neopixel",
+  "version": "1.1.0",
+  "main": "src/NeoPixel.js",
+  "repository": "https://github.com/chrvadala/neopixel.git",
+  "author": "chr.vadala",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^4.1.1"
+  },
+  "scripts": {
+    "test": "jest",
+    "standard": "standard",
+    "coverage": "jest --coverage",
+    "ci": "npm-run-all standard coverage",
+    "build": "exit 0"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.2.3",
+    "jest": "^26.0.1",
+    "npm-run-all": "^4.1.5",
+    "standard": "^14.3.4"
+  }
+}

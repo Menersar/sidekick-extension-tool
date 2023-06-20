@@ -8,19 +8,20 @@
     "build:dist": "NODE_ENV=production yarn run build",
     "build:all": "node ./buildAllExtensions.js",
     "build:extension": "node ./buildExtension.js",
-    "build-extension": "rimraf ./extensions/sidekick2/build && mkdirp extensions/sidekick2/build && rimraf ./extensions/sidekick2/dist && mkdirp extensions/sidekick2/dist && webpack --env extensionName=sidekick2"
+    "build-extension": "rimraf ./extensions/sidekick4/build && mkdirp extensions/sidekick4/build && rimraf ./extensions/sidekick4/dist && mkdirp extensions/sidekick4/dist && webpack --env extensionName=sidekick4"
   },
   "dependencies": {
-    "rpi-ws281x-native": "v0.10.2",
-
-
+    "net": "^1.0.2",
     "npm-add-script": "^1.1.0",
-    "scratch-extension": "../sidekick-modules/scratch-extension"
+    "scratch-extension": "../sidekick-modules/scratch-extension",
+    "url": "^0.11.1"
   },
   "devDependencies": {
     "copy-webpack-plugin": "^10.2.0",
     "mkdirp": "^1.0.4",
+    "npm-add-script": "^1.1.0",
     "rimraf": "^3.0.2",
+    "scratch-extension": "../sidekick-modules/scratch-extension",
     "webpack": "^5.65.0",
     "webpack-cli": "^4.9.1",
     "zip-webpack-plugin": "^4.0.1"

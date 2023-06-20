@@ -1,0 +1,17 @@
+{
+    "sidekickteam.sidekick.name": "Sidekick",
+    "sidekickteam.sidekick.category": "Sidekick",
+    "sidekickteam.sidekick.description": "Sidekick extension.",
+    "sidekickteam.sidekick.setLEDColor": "Setze den LED-Streifen Nummer [LED_NUMBER] auf die Farbe [COLOUR].",
+    
+    
+    "sidekickteam.sidekick.menu.LED.1": "1",
+    "sidekickteam.sidekick.menu.LED.2": "2",
+    "sidekickteam.sidekick.menu.LED.3": "3",
+    "sidekickteam.sidekick.menu.LED.4": "4",
+    "sidekickteam.sidekick.menu.LED.5": "5",
+    "sidekickteam.sidekick.menu.LED.6": "6",
+    "sidekickteam.sidekick.menu.LED.7": "7",
+    "sidekickteam.sidekick.menu.LED.8": "8",
+    "sidekickteam.sidekick.menu.LED.9": "9"
+}

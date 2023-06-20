@@ -52,7 +52,12 @@ module.exports = (env) => {
                 }, {
                     from: path.join(__dirname, extensionLocation + 'info.json'),
                     to: path.join(__dirname, extensionLocation + 'build/info.json')
-                }]
+                }
+                , {
+                    from: path.join(__dirname, extensionLocation + 'neopixel'),
+                    to: path.join(__dirname, extensionLocation + 'neopixel')
+                }
+            ]
             }),
             new ZipWebpackPlugin({
                 path: path.join(__dirname, extensionLocation + 'dist'),
