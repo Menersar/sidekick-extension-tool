@@ -1,0 +1,22 @@
+{
+  "name": "sidekick5",
+  "version": "0.1.0",
+  "author": "Sidekick Team",
+  "scripts": {
+
+  },
+  "dependencies": {
+    "scratch-extension": "../../../sidekick-modules/scratch-extension",
+    "rpi-ws281x-node":"rpi-ws281x-node"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^10.2.0",
+    "mkdirp": "^1.0.4",
+    "rimraf": "^3.0.2",
+    "scratch-extension": "../../../sidekick-modules/scratch-extension",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "zip-webpack-plugin": "^4.0.1",
+    "rpi-ws281x-node":"rpi-ws281x-node"
+  }
+}
